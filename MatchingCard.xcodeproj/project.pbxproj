@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB28A3D72C2D4B4800F7D1FC /* MatchingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28A3D62C2D4B4800F7D1FC /* MatchingCard.swift */; };
+		CB0E8F102C3153A400BFC010 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0E8F0F2C3153A400BFC010 /* NetworkManager.swift */; };
+		CB0E8F122C3153BF00BFC010 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0E8F112C3153BF00BFC010 /* StorageService.swift */; };
+		CB0E8F1E2C31EA0500BFC010 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0E8F1D2C31EA0500BFC010 /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB0E8F0F2C3153A400BFC010 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CB0E8F112C3153BF00BFC010 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		CB0E8F1D2C31EA0500BFC010 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		CB28A3D32C2D4B4800F7D1FC /* libMatchingCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMatchingCard.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB28A3D62C2D4B4800F7D1FC /* MatchingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		CB28A3D52C2D4B4800F7D1FC /* MatchingCard */ = {
 			isa = PBXGroup;
 			children = (
-				CB28A3D62C2D4B4800F7D1FC /* MatchingCard.swift */,
+				CB0E8F0F2C3153A400BFC010 /* NetworkManager.swift */,
+				CB0E8F112C3153BF00BFC010 /* StorageService.swift */,
+				CB0E8F1D2C31EA0500BFC010 /* NetworkMonitor.swift */,
 			);
 			path = MatchingCard;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB28A3D72C2D4B4800F7D1FC /* MatchingCard.swift in Sources */,
+				CB0E8F102C3153A400BFC010 /* NetworkManager.swift in Sources */,
+				CB0E8F1E2C31EA0500BFC010 /* NetworkMonitor.swift in Sources */,
+				CB0E8F122C3153BF00BFC010 /* StorageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +187,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -236,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -253,7 +261,7 @@
 				DEVELOPMENT_TEAM = X8ZABCLRBR;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -266,7 +274,7 @@
 				DEVELOPMENT_TEAM = X8ZABCLRBR;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
